@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+    cron_notify:
+      build:
+        context: ".."
+        dockerfile: "docker/Dockerfile"
+      env_file:
+        - ../.env
+      hostname: cron_notify
+      volumes:
+        - ${NOTIFY_DIR}:/notify
+      restart:
+        always

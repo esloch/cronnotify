@@ -1,0 +1,2 @@
+* * * * * date >> /notify/dates.txt
+# 0 22 * * * root bash /activate.sh /AlertaDengueCaptura/crawlclima/pegatemperatura.py >> /var/log/cron.log

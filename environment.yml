@@ -1,0 +1,15 @@
+name: cron-notify
+channels:
+- conda-forge
+- defaults
+dependencies:
+- geojson
+- pandas
+- pip
+- python
+- python-dotenv
+- psycopg2
+- sqlalchemy
+- make
+- docker-compose
+- python-dotenv

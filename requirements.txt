@@ -1,0 +1,10 @@
+geojson
+pandas
+pip
+python
+python-dotenv
+psycopg2
+sqlalchemy
+docker-compose
+make
+python-dotenv
